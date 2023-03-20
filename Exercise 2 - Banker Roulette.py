@@ -9,7 +9,7 @@ names = names_string.split(", ")
 
 import random
 
-number_of_people = int(len(names))
+number_of_people = int(len(names)) - 1
 lucky_person = random.randint(0,number_of_people)
 
 print(f" {names[lucky_person]} is going to buy the meal today!")
